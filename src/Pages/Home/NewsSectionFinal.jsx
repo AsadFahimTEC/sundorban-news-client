@@ -1,10 +1,10 @@
 const NewsCard = ({ category, title, image }) => {
   return (
-    <div className="flex items-center bg-white p-4 shadow-md border border-gray-300 rounded-lg hover:bg-gray-100 transition duration-300">
+    <div className="flex items-center  p-1 transition duration-300">
       <img
         src={image}
         alt={title}
-        className="w-24 h-24 object-cover rounded-md mr-4"
+        className="w-44 h-24 object-cover rounded-md mr-4"
       />
       <div>
         <span className="text-red-600 font-bold text-sm">{category}</span>
@@ -33,6 +33,7 @@ const NewsSectionFinal = () => {
   return (
     <div className="container mx-auto px-4 py-6">
       <div className="space-y-4">
+      <hr />
         {newsItems.map((news, index) => (
           <NewsCard
             key={index}
@@ -41,6 +42,7 @@ const NewsSectionFinal = () => {
             image={news.image}
           />
         ))}
+        <hr />
       </div>
     </div>
   );

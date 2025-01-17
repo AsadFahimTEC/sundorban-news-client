@@ -18,7 +18,7 @@ import PhotoGallery from "./PhotoGallery";
 
 const Home = () => {
   return (
-    <div className="bg-white mt-10">
+    <div className="bg-white mt-1">
       <Helmet>
         <title>SundorbanNews | Home</title>
         <link rel="canonical" href="https://www.example.com/" />
