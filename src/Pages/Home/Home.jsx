@@ -7,7 +7,6 @@ import SubHome from "./SubHome";
 
 // import Banijjo from "./Banijjo";
 
-
 import Rajniti from "../../Components/Rajniti";
 import Khela from "../../Components/Khela";
 
@@ -17,12 +16,9 @@ import Sikkha from "../../Components/Sikkha";
 import TwoCard from "./TwoCard";
 import PhotoGallery from "./PhotoGallery";
 
-
-
-
 const Home = () => {
   return (
-    <div className="bg-white mt-20">
+    <div className="bg-white mt-10">
       <Helmet>
         <title>SundorbanNews | Home</title>
         <link rel="canonical" href="https://www.example.com/" />
