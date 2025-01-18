@@ -3,6 +3,7 @@ import NewsSectionFour from "./NewsSectionFour";
 import EntertainmentFinal from "./EntertainmentFinal";
 import ElakarNews from "./ElakarNews";
 import SaraDeshFinal from "./SaraDeshFinal";
+import AmaderNews from "./AmaderNews";
 
 const NewsSectionTwo = () => {
   const [activeTab, setActiveTab] = useState("latest");
@@ -181,6 +182,7 @@ const NewsSectionTwo = () => {
       <EntertainmentFinal></EntertainmentFinal>
       <ElakarNews></ElakarNews>
       <SaraDeshFinal></SaraDeshFinal>
+      <AmaderNews></AmaderNews>
     </div>
   );
 };
