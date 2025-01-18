@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import NewsSectionFour from "./NewsSectionFour";
+import EntertainmentFinal from "./EntertainmentFinal";
+import ElakarNews from "./ElakarNews";
 
 const NewsSectionTwo = () => {
   const [activeTab, setActiveTab] = useState("latest");
@@ -173,6 +176,9 @@ const NewsSectionTwo = () => {
           </button>
         </div>
       </div>
+      <NewsSectionFour></NewsSectionFour>
+      <EntertainmentFinal></EntertainmentFinal>
+      <ElakarNews></ElakarNews>
     </div>
   );
 };
