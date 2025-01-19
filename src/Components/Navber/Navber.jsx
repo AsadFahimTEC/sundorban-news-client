@@ -482,6 +482,7 @@ import {
   FaRss,
 } from "react-icons/fa";
 import { FiMenu, FiSearch, FiX } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [dateInfo, setDateInfo] = useState("");
@@ -560,11 +561,13 @@ const Navbar = () => {
 
           {/* Center Section - Logo */}
           <div className="flex flex-col items-center space-y-2">
+          <Link to="/" className="flex items-center lg:justify-start justify-center w-full lg:w-auto">
             <img
               src="https://i.ibb.co/FY6PtV8/Sundarban-News24-Logo.gif"
               alt="Logo"
               className="h-12 md:h-20"
             />
+            </Link>
           </div>
 
           {/* Right Section - Social Media Links */}
@@ -596,14 +599,17 @@ const Navbar = () => {
       >
         {/* Menu Header with Close Button */}
         <div className="flex justify-between items-center p-4 border-b">
+        <Link to="/" className="flex items-center lg:justify-start justify-center w-full lg:w-auto">
           <img
             src="https://i.ibb.co/FY6PtV8/Sundarban-News24-Logo.gif"
             alt="Logo"
             className="h-10"
           />
+          </Link>
           <button onClick={toggleMenu} className="text-2xl">
             <FiX />
           </button>
+          
         </div>
 
         {/* Scrollable Menu */}

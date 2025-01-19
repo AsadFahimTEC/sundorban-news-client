@@ -218,7 +218,7 @@ const Headline = () => {
     </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Left Section: News List */}
-        <div className="md:col-span-1 p-4  ">
+        <div className="md:col-span-1 p-4 cursor-pointer ">
           <img
             src="https://i.ibb.co/xjThM10/Screenshot-2024-11-10-02-28-41-06-a23b203fd3aafc6dcb84e438dda678b6-1024x567.jpg"
             alt="Featured News"
@@ -251,7 +251,7 @@ const Headline = () => {
         </div>
 
         {/* Center Section: Featured News */}
-        <div className="md:col-span-1  p-4  ">
+        <div className="md:col-span-1  p-4 cursor-pointer  ">
           <div className="bg-red-600 text-white text-center py-3 text-lg font-bold  w-full h-auto">
             সুন্দরবন নিউজ২৪ / নির্বাচিত প্রতিনিধি <br /> দেখতে চায় জাতি: আমীর খসরু
           </div>
