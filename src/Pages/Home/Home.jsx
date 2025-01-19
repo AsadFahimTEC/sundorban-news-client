@@ -25,19 +25,19 @@ const Home = () => {
       </Helmet>
 
       <Headline></Headline>
-      <SubHome></SubHome>
-
-      <TwoCard></TwoCard>
+      {/* <SubHome></SubHome> */}
 
       {/* <TwoCard></TwoCard> */}
-      <Sikkha></Sikkha>
 
-      <Binnodon></Binnodon>
+      {/* <TwoCard></TwoCard> */}
+      {/* <Sikkha></Sikkha> */}
+
+      {/* <Binnodon></Binnodon> */}
       {/* <Banijjo></Banijjo> */}
       {/* <Rajniti></Rajniti> */}
-      <Khela></Khela>
+      {/* <Khela></Khela> */}
       {/* <Saradesh></Saradesh> */}
-      <PhotoGallery></PhotoGallery>
+      {/* <PhotoGallery></PhotoGallery> */}
     </div>
   );
 };
