@@ -5,14 +5,17 @@ const InterNationalFinal = () => {
     {
       id: 1,
       title: "নেই মোদির নাম, ট্রাম্পের শপথ অনুষ্ঠানে আমন্ত্রণ পেলেন যারা",
-      image: "https://i.ibb.co.com/N2rys7Q/Screenshot-2025-01-18-09-06-25-51-a23b203fd3aafc6dcb84e438dda678b6.jpg",
+      image:
+        "https://i.ibb.co.com/N2rys7Q/Screenshot-2025-01-18-09-06-25-51-a23b203fd3aafc6dcb84e438dda678b6.jpg",
       description:
         "আগামী সোমবার যুক্তরাষ্ট্রের নতুন প্রেসিডেন্ট হিসেবে শপথ নিতে যাচ্ছেন ডোনাল্ড ট্রাম্প। শপথ অনুষ্ঠানে আমন্ত্রিত অতিথিদের তালিকায় স্থান পেয়েছেন বিভিন্ন দেশের....",
     },
     {
       id: 2,
-      title: "মিলে গেল বাবা ভাঙ্গার দুই ভবিষ্যদ্বাণী, সামনে কি ভয়ংকর বিপদ আসছে?",
-      image: "https://i.ibb.co.com/kHr3QgR/Screenshot-2025-01-11-21-48-15-25-a23b203fd3aafc6dcb84e438dda678b6-1024x580.jpg",
+      title:
+        "মিলে গেল বাবা ভাঙ্গার দুই ভবিষ্যদ্বাণী, সামনে কি ভয়ংকর বিপদ আসছে?",
+      image:
+        "https://i.ibb.co.com/kHr3QgR/Screenshot-2025-01-11-21-48-15-25-a23b203fd3aafc6dcb84e438dda678b6-1024x580.jpg",
       description:
         "নতুন বছরের শুরুতেই অর্থাৎ ২০২৫ নিয়ে বাবা ভাঙ্গার দেওয়া দুই ভবিষ্যদ্বাণী মিলে গিয়েছে! আর এতেই বিশ্বের মানুষ আতঙ্কিত হয়ে উঠেছেন।...",
     },
@@ -44,7 +47,7 @@ const InterNationalFinal = () => {
       </div>
 
       {/* Cards Section */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 cursor-pointer">
         {articles.map((article) => (
           <div
             key={article.id}
