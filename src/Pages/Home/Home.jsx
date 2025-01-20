@@ -1,20 +1,16 @@
-import Binnodon from "../../Components/Binodon";
 import { Helmet } from "react-helmet-async";
 
-import CategoryNews from "./CategoryNews";
 import Headline from "./Headline";
-import SubHome from "./SubHome";
-
-// import Banijjo from "./Banijjo";
-
-import Rajniti from "../../Components/Rajniti";
-import Khela from "../../Components/Khela";
-
-import Saradesh from "./Saradesh";
-
-import Sikkha from "../../Components/Sikkha";
-import TwoCard from "./TwoCard";
-import PhotoGallery from "./PhotoGallery";
+import NewsSectionTwo from "./NewsSectionTwo";
+import NewsSectionFour from "./NewsSectionFour";
+import EntertainmentFinal from "./EntertainmentFinal";
+import ElakarNews from "./ElakarNews";
+import SaraDeshFinal from "./SaraDeshFinal";
+import AmaderNews from "./AmaderNews";
+import InterNationalFinal from "./InterNationalFinal";
+import JonoDorvog from "./JonoDorvog";
+import ICT from "./ICT";
+import VideoGallary from "./VideoGallary";
 
 const Home = () => {
   return (
@@ -25,19 +21,17 @@ const Home = () => {
       </Helmet>
 
       <Headline></Headline>
-      {/* <SubHome></SubHome> */}
-
-      {/* <TwoCard></TwoCard> */}
-
-      {/* <TwoCard></TwoCard> */}
-      {/* <Sikkha></Sikkha> */}
-
-      {/* <Binnodon></Binnodon> */}
-      {/* <Banijjo></Banijjo> */}
-      {/* <Rajniti></Rajniti> */}
-      {/* <Khela></Khela> */}
-      {/* <Saradesh></Saradesh> */}
-      {/* <PhotoGallery></PhotoGallery> */}
+      <NewsSectionTwo></NewsSectionTwo>
+      <NewsSectionFour></NewsSectionFour>
+      <EntertainmentFinal></EntertainmentFinal>
+      <ElakarNews></ElakarNews>
+      <SaraDeshFinal></SaraDeshFinal>
+      <AmaderNews></AmaderNews>
+      <VideoGallary></VideoGallary>
+      <InterNationalFinal></InterNationalFinal>
+      {/* <Sports></Sports> */}
+      <JonoDorvog></JonoDorvog>
+      <ICT></ICT>
     </div>
   );
 };

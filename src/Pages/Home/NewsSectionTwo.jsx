@@ -1,14 +1,5 @@
 import React, { useState } from "react";
-import NewsSectionFour from "./NewsSectionFour";
-import EntertainmentFinal from "./EntertainmentFinal";
-import ElakarNews from "./ElakarNews";
-import SaraDeshFinal from "./SaraDeshFinal";
-import AmaderNews from "./AmaderNews";
-import VideoGallary from "./VideoGallary";
-import InterNationalFinal from "./InterNationalFinal";
-import Sports from "./Sports";
-import JonoDorvog from "./JonoDorvog";
-import ICT from "./ICT";
+
 
 const NewsSectionTwo = () => {
   const [activeTab, setActiveTab] = useState("latest");
@@ -183,16 +174,16 @@ const NewsSectionTwo = () => {
           </button>
         </div>
       </div>
-      <NewsSectionFour></NewsSectionFour>
+      {/* <NewsSectionFour></NewsSectionFour>
       <EntertainmentFinal></EntertainmentFinal>
       <ElakarNews></ElakarNews>
       <SaraDeshFinal></SaraDeshFinal>
       <AmaderNews></AmaderNews>
       <VideoGallary></VideoGallary>
-      <InterNationalFinal></InterNationalFinal>
+      <InterNationalFinal></InterNationalFinal> */}
       {/* <Sports></Sports> */}
-      <JonoDorvog></JonoDorvog>
-      <ICT></ICT>
+      {/* <JonoDorvog></JonoDorvog>
+      <ICT></ICT> */}
     </div>
   );
 };
